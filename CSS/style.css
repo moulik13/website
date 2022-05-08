@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
     margin : 0;
     padding: 0;
@@ -19,6 +21,11 @@
 
 .navbar{
     display: flex;
+    align-items: center;
+     justify-content: center;
+     position: sticky;
+     top: 0;
+     cursor: pointer;
 }
 
 .nav-list{
@@ -51,6 +58,7 @@ display: flex;
     
     width: 50%;
     text-align: right;
+    padding: 0 23px;
 }
 
 #Search{
@@ -65,4 +73,95 @@ display: flex;
     background: rgba(0, 0, 0, 0) url('../img/876589.jpg');
     background-size: cover;
     background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secondhalf{
+width: 30%;
+}
+
+.secondhalf img{
+    width: 100%;
+    border-radius: 150;
+    border: 4px solid whitesmoke;
+    border-radius: 150;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    }
+
+ .text-big{
+font-size: 50px;
+ }
+
+ .text-big{
+     font-size: 25px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 2px;
+    border: 2px solid white;
+    border-radius: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    vertical-align: middle;
+    padding: 4px 13px;
+}
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.paras{
+    padding: 0 65px;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+
+}
+
+.sectionSubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    width: 176px;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin-top: 19px;
 }
